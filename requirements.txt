@@ -302,7 +302,6 @@ PyOpenGL==3.1.6
 pyparsing==3.0.9
 pyrsistent==0.19.3
 pysimdjson==3.2.0
-PySocks==1.7.1
 pystan==3.3.0
 pytesseract==0.3.10
 python-apt==2.0.1
