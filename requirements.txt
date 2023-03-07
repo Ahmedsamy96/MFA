@@ -350,7 +350,7 @@ snowballstemmer==2.2.0
 sortedcontainers==2.4.0
 soundfile==0.12.1
 soupsieve==2.4
-spacy==3.4.4
+spacy>=3.0.0,<4.0.0
 spacy-legacy==3.0.12
 spacy-loggers==1.0.4
 spacy-streamlit==1.0.5
