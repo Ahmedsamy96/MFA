@@ -1,5 +1,6 @@
 pytesseract==0.3.10
 streamlit==1.19.0
+streamlit-aggrid
 deep_translator==1.9.1
 spacy==3.4.4
 sumy==0.11.0
