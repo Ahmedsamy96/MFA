@@ -3,7 +3,7 @@ streamlit==1.19.0
 streamlit-aggrid==0.3.4
 deep_translator==1.9.1
 click<7.2.0,>=7.1.1
-spacy>=3.0.0,<4.0.0
+spacy==3.4.4
 spacy-legacy==3.0.12
 spacy-loggers==1.0.4
 spacy-streamlit==1.0.5
