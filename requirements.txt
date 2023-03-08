@@ -1,4 +1,5 @@
-tesseract
+tesseract-ocr
+tesseract-ocr-ara
 pytesseract==0.3.10
 streamlit==1.19.0
 streamlit-aggrid==0.3.4
