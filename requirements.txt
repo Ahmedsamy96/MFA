@@ -1,9 +1,8 @@
-click<8
 pytesseract==0.3.10
 streamlit==1.19.0
 streamlit-aggrid
 deep_translator==1.9.1
-spacy>=3.0.0,<4.0.0
+spacy
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz
 spacy_streamlit
 sumy==0.11.0
