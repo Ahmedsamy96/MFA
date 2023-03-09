@@ -12,3 +12,4 @@ pyvis==0.3.2
 pandas==1.3.5
 matplotlib==3.5.3
 gensim==3.6.0
+github
