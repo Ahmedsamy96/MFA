@@ -59,20 +59,17 @@ def main():
 	uploaded_files = st.file_uploader("Upload a file" , type=("png", "jpg","jpeg"), accept_multiple_files=True)
 	
 	if uploaded_files:
-		#st.write(uploaded_files)
-		#a = ('',)
-		#l = list(a)
-		#for x in uploaded_files:
-		#		l.append(x)
-		#st.write(l)
 
 		img_option = st.selectbox('Apply processing on only one of the uploaded files.', tuple(uploaded_files))
 
-		#for file in uploaded_files:
 		with st.spinner("Applying OCR on the img...."):
 				# Upload Document Image
 				image = Image.open(img_option)
 				st.image(image, caption='Uploaded Image.', use_column_width=True)
+				
+				with open(os.path.join("User_uploads",img_option.name),"wb") as f: 
+				  f.write(img_option.getbuffer())         
+				  st.success("Saved File")
 
 				# Apply OCR on the image
 				custom_config = r'-l eng+ara --psm 6'
