@@ -35,6 +35,7 @@ from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lex_rank import LexRankSummarizer
 from pyvis.network import Network
 
+
 PAGE_CONFIG = {"page_title":"MFA.Analyser","page_icon":"https://toppng.com//public/uploads/preview/flag-of-egypt-eagle-115629057682qouw8kymo.png","layout":"centered"}
 st.set_page_config(**PAGE_CONFIG)
 
