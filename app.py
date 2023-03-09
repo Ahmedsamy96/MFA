@@ -67,10 +67,6 @@ def main():
 				# Upload Document Image
 				image = Image.open(img_option)
 				st.image(image, caption='Uploaded Image.', use_column_width=True)
-				
-				with open(os.path.join("User_uploads",img_option.name),"wb") as f: 
-				  f.write(img_option.getbuffer())         
-				  st.success("Saved File")
 
 				# Apply OCR on the image
 				custom_config = r'-l eng+ara --psm 6'
